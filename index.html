@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript MiniProyecto # 3 - Validación de Tarjeta de Crédito</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" 
+    rel="stylesheet">
+</head>
+<body>
+    <div id="message" >
+        <div id="messagecontainer">
+            <div id="me-img"></div>
+            <div id="me-message">XDXD</div>
+            <button id="return" type="button">BOTON 1</button>
+        </div>
+    </div>
+
+    <header  >
+        <img id="logo" src="https://cdn2.iconfinder.com/data/icons/alpine-summit/128/alpine_summit_tree_hills-512.png" alt="Logo de un árbol para mi país">
+        <h1 id="Orgs_name">UN ÁRBOL PARA MI PAÍS</h1>
+    </header>
+    <main >
+        <div id="img"></div>
+        <div id="description">
+            <div id="about-us">
+                <h2>Planta un árbol hoy</h2>
+            </br>
+                <p>UN ÁRBOL PARA MI PAÍS es una organización 
+                    sin fines de lucro. 
+                    Como organización benéfica ambiental, 
+                    tenemos la misión de simplificar 
+                    la tarea de ayudar al medio ambiente 
+                    plantando árboles.</p>
+                </br>
+                   <p> UN DÓLAR. UN ÁRBOL.</p>
+                </br>
+                   <p>Como organización benéfica ambiental, 
+                    nos dedicamos a facilitar que las personas 
+                    y las empresas retribuyan al medio ambiente, 
+                    creen un clima más saludable, protejan 
+                    la biodiversidad y ayuden a los esfuerzos 
+                    de reforestación en todo el mundo. 
+                    ¡Todo plantando árboles!</p>
+                </br>
+                    <p> Inicia a donar ahora</p>
+                </br>
+                    <div id="tarjeta">
+                        <input name="credit-number"
+                         class="ccnumber" type="tel" maxlength="16" tag="/^(?:3[47][0-9]{16})$/" placeholder="Ingrese # de su tarjeta aquí">
+                         <button id="bt-donar" type="submit">DONAR</button>
+                    </div>
+                    <small id="smaerror">error mesage</small>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

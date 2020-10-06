@@ -1,0 +1,160 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alata', sans-serif;
+    width: 100vw;
+    height: 100vh; 
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-content: center;
+    height: 10%;
+    padding-left: 20px;
+    background-color: #e6ffcc;
+}
+
+#logo {
+    height: 100%;
+    width: 80px;
+    margin-right: 30px;
+}
+
+#Orgs_name {
+    margin: 10px;
+}
+
+main {
+    display: flex;
+    height: 90%;
+    background-color: #f2ffe6;
+}
+
+#img {
+    height: 70%;
+    width: 40%;  
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-content: center;
+    background-image: url("https://www.cambridgeindependent.co.uk/_media/img/M72F02SSOVH5XI1XWE8F.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main_img {
+    height: 100%;   
+}
+
+#description {
+    width: 60%;
+    padding: 20px;
+}
+
+#tarjeta {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.ccnumber {
+    border: 2px solid #4CAF50;
+    padding: 10px;
+    margin-right: 10px;
+    width: 50%;
+    border-radius: 8px;
+}
+
+#bt-donar {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 14px 40px;
+    transition-duration: 0.4s;
+}
+
+#bt-donar:hover {
+    cursor: pointer;
+    background-color: #358b37;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+#notsupported {
+    border: 2px solid #e61111;
+}
+
+.notshow {
+    display: none;
+}
+
+#message {
+    background-color: #f2ffe6;
+    width: 100%;
+    height: 100%;
+}
+
+#messagecontainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#me-img {
+    height: 50%;
+    width: 100%;
+}
+
+#me-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    width: 100%;
+}
+
+#return {
+    cursor: pointer;
+    background-color: #358b37;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.valida {
+    background-image: url("https://cdn.pixabay.com/photo/2012/04/24/13/49/tick-40143_1280.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.invalida {
+    background-image: url("https://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/sign-error-icon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#smaerror {
+    color: #ff6347;
+}
+
+.wrongformat {
+    border: 2px solid #ff6347;
+    padding: 10px;
+    margin-right: 10px;
+    width: 50%;
+    border-radius: 8px;
+}
